@@ -62,7 +62,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <h3 id="user-endpoints">Homepage</h3>
 
-** homepage screenshot here**
+![Homepage](Home page.png)
 
 - description here.
 
