@@ -11,8 +11,9 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#features">Features</a></li>
-        <li><a href="#tech-used">Technologies Used</a></li>
+        <li><a href="#setup">Setup</a></li>
       </ul>
+    <li><a href="#tech-used">Technologies Used</a></li>
     </li>
     <li><a href="#system-walkthrough">System Walkthrough</a>
         <ul>
