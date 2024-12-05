@@ -70,7 +70,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 ![Register](https://github.com/JosephNeilG/library-ui/blob/45948c9811179080f9a4a74c437bf304de14200c/ui/Register.png)
 
-- description here.
+- This is the registration page of the Library Management system, allowing users to create an account by providing a username, password, and confirmation password.
 
 <h3 id="user-endpoints">Login</h3>
 
