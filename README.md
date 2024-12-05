@@ -31,7 +31,7 @@
 
 ## About the Project
 
-[A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScript that interacts with a backend Library Management System API](https://github.com/JosephNeilG/library_4a) made with the Slim PHP framework. This interface allows users to view, add, and manage books and authors seamlessly.
+A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScript that interacts with a backend [Library Management System API](https://github.com/JosephNeilG/library_4a) made with the Slim PHP framework. This interface allows users to view, add, and manage books and authors seamlessly.
 
 <p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
