@@ -62,7 +62,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <h3 id="user-endpoints">Homepage</h3>
 
-![Homepage](Home page.png)
+![Homepage](https://github.com/JosephNeilG/library-ui/blob/bf758cc7fca3f9e25b5d946d2f0a0db76d78c13c/ui/Home%20page.png)
 
 - description here.
 
