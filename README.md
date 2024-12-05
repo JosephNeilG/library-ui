@@ -80,7 +80,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <h3 id="user-endpoints">Authors</h3>
 
-** Authors screenshot here**
+![Authors](https://github.com/JosephNeilG/library-ui/blob/ec3d9ad1d4a3e1db3e119152abb8d3919c5c12cb/ui/Authors.png)
 
 - description here.
 
