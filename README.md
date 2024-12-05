@@ -68,7 +68,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <h3 id="user-endpoints">Register</h3>
 
-** Register screenshot here**
+![Register](https://github.com/JosephNeilG/library-ui/blob/45948c9811179080f9a4a74c437bf304de14200c/ui/Register.png)
 
 - description here.
 
