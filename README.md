@@ -74,7 +74,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <h3 id="user-endpoints">Login</h3>
 
-** Login screenshot here**
+![Login](https://github.com/JosephNeilG/library-ui/blob/23c27b959079bdbe90548c0ee1aea5cf081076ea/ui/Authenticate%20or%20Login.png)
 
 - description here.
 
