@@ -88,7 +88,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 ![Books](https://github.com/JosephNeilG/library-ui/blob/ec3d9ad1d4a3e1db3e119152abb8d3919c5c12cb/ui/Books.png)
 
-- description here.
+- This is the manage books page, which allows users to add, edit/update, and delete book information.
 
 <h3 id="user-endpoints">Author-Books Association</h3>
 
