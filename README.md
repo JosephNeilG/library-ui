@@ -76,7 +76,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 ![Login](https://github.com/JosephNeilG/library-ui/blob/23c27b959079bdbe90548c0ee1aea5cf081076ea/ui/Authenticate%20or%20Login.png)
 
-- description here.
+- This is the login page of the Library Management system, where users can enter their username and password to access their account.
 
 <h3 id="user-endpoints">Authors</h3>
 
