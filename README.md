@@ -92,7 +92,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <h3 id="user-endpoints">Author-Books Association</h3>
 
-** Author-Books Association screenshot here**
+![Author-Books](https://github.com/JosephNeilG/library-ui/blob/6009da22a107702c243c0fe871e284dc43bfab8d/ui/Author-books.png)
 
 - description here.
 
