@@ -98,7 +98,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <h3 id="user-endpoints">Manage Account</h3>
 
-** Manage Account screenshot here**
+![Manage-Accounts](https://github.com/JosephNeilG/library-ui/blob/73349065f1972887f2d225cf678ee6394526ef10/ui/Manage-accounts.png)
 
 - description here.
 
