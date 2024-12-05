@@ -92,13 +92,13 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <h3 id="user-endpoints">Author-Books Association</h3>
 
-![Author-Books](https://github.com/JosephNeilG/library-ui/blob/6009da22a107702c243c0fe871e284dc43bfab8d/ui/Author-books.png)
+![Author-Books Association](https://github.com/JosephNeilG/library-ui/blob/6009da22a107702c243c0fe871e284dc43bfab8d/ui/Author-books.png)
 
 - This is the Author-Books Association page, which manages authors, books, and their associations, with options to add, edit, or delete records. It also provides reference lists of authors and books for easy management.
 
 <h3 id="user-endpoints">Manage Account</h3>
 
-![Manage-Accounts](https://github.com/JosephNeilG/library-ui/blob/73349065f1972887f2d225cf678ee6394526ef10/ui/Manage-accounts.png)
+![Manage Account](https://github.com/JosephNeilG/library-ui/blob/73349065f1972887f2d225cf678ee6394526ef10/ui/Manage-accounts.png)
 
 - This is the Manage Accounts Page, which manages user accounts, allowing users to update their credentials or delete their accounts. It includes a user list for easy reference and management.
 
