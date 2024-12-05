@@ -64,7 +64,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 ![Homepage](https://github.com/JosephNeilG/library-ui/blob/bf758cc7fca3f9e25b5d946d2f0a0db76d78c13c/ui/Home%20page.png)
 
-- description here.
+- This is the Library Management system's home page. It has a clear navigation bar with choices for Books, Authors, and Author-Books, as well as a login button for users to access.
 
 <h3 id="user-endpoints">Register</h3>
 
