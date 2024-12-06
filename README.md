@@ -137,7 +137,7 @@ Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 
 <h3 id="login">Login</h3>
 
-![Login](https://github.com/JosephNeilG/library-ui/blob/23c27b959079bdbe90548c0ee1aea5cf081076ea/img/Authenticate%20or%20Login.png)
+![Login](https://github.com/JosephNeilG/library-ui/blob/4590e189ef7c35a845ff7c560589d689900cdc28/img/Authenticate%20or%20Login.png)
 
 - This is the login page, where users can enter their username and password to access their account.
 
