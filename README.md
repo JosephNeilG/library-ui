@@ -14,9 +14,9 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#features">Features</a></li>
-        <li><a href="#setup">Setup Instructions</a></li>
       </ul>
     </li>
+    <li><a href="#setup">Setup Instructions</a></li>
     <li><a href="#system-walkthrough">System Walkthrough</a>
         <ul>
         <li><a href="#homepage">Homepage</a></li>
