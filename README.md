@@ -131,7 +131,7 @@ Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 
 <h3 id="register">Register</h3>
 
-![Register](https://github.com/JosephNeilG/library-ui/blob/45948c9811179080f9a4a74c437bf304de14200c/img/Register.png)
+![Register](https://github.com/JosephNeilG/library-ui/blob/f668f81cad0a97c8b71a2f80cabf821daba99f3a/img/Register.png)
 
 - This is the registration page, allowing users to create an account by providing a username, password, and confirmation password.
 
