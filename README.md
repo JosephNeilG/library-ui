@@ -42,6 +42,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 <h2 id="tech-used">Technologies Used</h2>
 
 ### Frontend:
+- HTML 
 - CSS (for styling and layout)
 - Bootstrap 5.3 (for responsive design and UI components)
 - JavaScript (for dynamic content and API interaction)
