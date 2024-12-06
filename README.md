@@ -11,7 +11,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#features">Features</a></li>
-        <li><a href="#setup">Setup</a></li>
+        <li><a href="#setup">Setup Instructions</a></li>
       </ul>
     <li><a href="#tech-used">Technologies Used</a></li>
     </li>
@@ -44,6 +44,64 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 - **Add Associations:** Allows users to associate books with authors.
 - **Manage Account:** Enables users to update their username and password, as well as delete their account.
 - **Authentication:** Utilizes token-based authentication for secure API interactions.
+
+### Setup Instructions
+Follow these steps to set up and run the Library UI and its API on your local machine.
+
+### Clone the Repositories
+
+1. **Clone the Library UI repository:**
+
+   ```bash
+   git clone https://github.com/github_username/library-ui.git
+   cd library-ui
+   ```
+
+2. **Clone the Library API repository in a separate directory:**
+
+    ```bash
+    git clone https://github.com/github_username/library-api.git
+    cd library-api
+    ```
+
+### Set Up the API
+
+1. **Navigate to the API directory and install dependencies using Composer:**
+
+    ```bash
+    cd library-api
+    composer install
+    ```
+
+2. **Configure Database Connection in index.php:**
+
+    ```php
+   <?php
+   $servername = "localhost";
+   $username = "root";
+   $password = "password";
+   $dbname = "library";
+   ?>
+   ```
+
+### Set Up the UI
+
+1. **Navigate to the Library UI directory:**
+
+    ```bash
+    cd library-ui
+    ```
+
+2. **Open every HTML and JavaScript file, and look for lines containing links like this:**
+
+    ```bash
+    http://127.0.0.1:8080/library/public/user/register
+    ```
+
+Ensure these URLs match the base URL used by your API server.
+
+3. **Launch the UI:**
+Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 
 ## Technologies Used
 
