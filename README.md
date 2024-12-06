@@ -4,16 +4,14 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#library-management-ui">About The Project</a>
-    </li>
+    <li><a href="#library-management-ui">About The Project</a></li>
+    <li><a href="#tech-used">Technologies Used</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#features">Features</a></li>
         <li><a href="#setup">Setup Instructions</a></li>
       </ul>
-    <li><a href="#tech-used">Technologies Used</a></li>
     </li>
     <li><a href="#system-walkthrough">System Walkthrough</a>
         <ul>
@@ -36,6 +34,19 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
+## Technologies Used
+
+### Frontend:
+- CSS (for styling and layout)
+- Bootstrap 5.3 (for responsive design and UI components)
+- JavaScript (for dynamic content and API interaction)
+
+### Backend:
+- Slim PHP framework
+- MySQL
+
+<p align="right">(<a href="#library-management-ui">back to top</a>)</p>
+
 ## Getting Started
 
 ### Features
@@ -45,7 +56,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 - **Manage Account:** Enables users to update their username and password, as well as delete their account.
 - **Authentication:** Utilizes token-based authentication for secure API interactions.
 
-### Setup Instructions
+<h3 id="setup">Setup Instructions</h3>
 Follow these steps to set up and run the Library UI and its API on your local machine.
 
 ### Clone the Repositories
@@ -98,23 +109,10 @@ Follow these steps to set up and run the Library UI and its API on your local ma
     http://127.0.0.1:8080/library/public/user/register
     ```
 
-Ensure these URLs match the base URL used by your API server.
+    Ensure these URLs match the base URL used by your API server.
 
 3. **Launch the UI:**
 Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
-
-## Technologies Used
-
-### Frontend:
-- CSS (for styling and layout)
-- Bootstrap 5.3 (for responsive design and UI components)
-- JavaScript (for dynamic content and API interaction)
-
-### Backend:
-- Slim PHP framework
-- MySQL
-
-<p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
 ## System Walkthrough
 
