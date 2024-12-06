@@ -143,25 +143,25 @@ Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 
 <h3 id="authors">Authors</h3>
 
-![Authors](https://github.com/JosephNeilG/library-ui/blob/ec3d9ad1d4a3e1db3e119152abb8d3919c5c12cb/img/Authors.png)
+![Authors](https://github.com/JosephNeilG/library-ui/blob/2bdbfa7427904e0546d6f88815c311f9f4458e48/img/Authors.png)
 
 - This is the manage authors page, which allows users to add, edit/update, and delete author information.
 
 <h3 id="books">Books</h3>
 
-![Books](https://github.com/JosephNeilG/library-ui/blob/ec3d9ad1d4a3e1db3e119152abb8d3919c5c12cb/img/Books.png)
+![Books](https://github.com/JosephNeilG/library-ui/blob/2bdbfa7427904e0546d6f88815c311f9f4458e48/img/Books.png)
 
 - This is the manage books page, which allows users to add, edit/update, and delete book information.
 
 <h3 id="author-books">Author-Books Association</h3>
 
-![Author-Books Association](https://github.com/JosephNeilG/library-ui/blob/6009da22a107702c243c0fe871e284dc43bfab8d/img/Author-books.png)
+![Author-Books Association](https://github.com/JosephNeilG/library-ui/blob/8ccd02cfc5ff31b3632d3f96d993bd3d38ec41b1/img/Author-books.png)
 
 - This is the Author-Books Association page, which manages authors, books, and their associations, with options to add, edit, or delete records. It also provides reference lists of authors and books for easy management.
 
 <h3 id="manage-account">Manage Account</h3>
 
-![Manage Account](https://github.com/JosephNeilG/library-ui/blob/73349065f1972887f2d225cf678ee6394526ef10/img/Manage-accounts.png)
+![Manage Account](https://github.com/JosephNeilG/library-ui/blob/8ccd02cfc5ff31b3632d3f96d993bd3d38ec41b1/img/Manage-accounts.png)
 
 - This is the Manage Accounts Page, which manages user accounts, allowing users to update their credentials or delete their accounts. It includes a user list for easy reference and management.
 
