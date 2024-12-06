@@ -155,13 +155,13 @@ Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 
 <h3 id="author-books">Author-Books Association</h3>
 
-![Author-Books Association](https://github.com/JosephNeilG/library-ui/blob/6009da22a107702c243c0fe871e284dc43bfab8d/img/Author-books.png)
+![Author-Books Association](https://github.com/JosephNeilG/library-ui/blob/8ccd02cfc5ff31b3632d3f96d993bd3d38ec41b1/img/Author-books.png)
 
 - This is the Author-Books Association page, which manages authors, books, and their associations, with options to add, edit, or delete records. It also provides reference lists of authors and books for easy management.
 
 <h3 id="manage-account">Manage Account</h3>
 
-![Manage Account](https://github.com/JosephNeilG/library-ui/blob/73349065f1972887f2d225cf678ee6394526ef10/img/Manage-accounts.png)
+![Manage Account](https://github.com/JosephNeilG/library-ui/blob/8ccd02cfc5ff31b3632d3f96d993bd3d38ec41b1/img/Manage-accounts.png)
 
 - This is the Manage Accounts Page, which manages user accounts, allowing users to update their credentials or delete their accounts. It includes a user list for easy reference and management.
 
