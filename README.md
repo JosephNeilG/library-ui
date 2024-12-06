@@ -39,7 +39,7 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 <p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
-<h3 id="tech-used">Technologies Used</h3>
+<h2 id="tech-used">Technologies Used</h2>
 
 ### Frontend:
 - CSS (for styling and layout)
@@ -167,10 +167,10 @@ Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 
 <p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
-<h3 id="collaborators">Collaborators</h3>
+<h2 id="collaborators">Collaborators</h2>
 
-[Kyle D. De Jesus](https://github.com/KyleDDJ)
-[Erbin James Derek A. Orodio](https://github.com/ErbinJames)
+- [Kyle D. De Jesus](https://github.com/KyleDDJ)
+- [Erbin James Derek A. Orodio](https://github.com/ErbinJames)
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request.
 
