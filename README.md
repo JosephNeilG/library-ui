@@ -61,6 +61,8 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 - **Manage Account:** Enables users to update their username and password, as well as delete their account.
 - **Authentication:** Utilizes token-based authentication for secure API interactions.
 
+<p align="right">(<a href="#library-management-ui">back to top</a>)</p>
+
 <h2 id="setup">Setup Instructions</h2>
 Follow these steps to set up and run the Library UI and its API on your local machine.
 
