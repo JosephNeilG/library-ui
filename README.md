@@ -143,13 +143,13 @@ Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 
 <h3 id="authors">Authors</h3>
 
-![Authors](https://github.com/JosephNeilG/library-ui/blob/ec3d9ad1d4a3e1db3e119152abb8d3919c5c12cb/img/Authors.png)
+![Authors](https://github.com/JosephNeilG/library-ui/blob/2bdbfa7427904e0546d6f88815c311f9f4458e48/img/Authors.png)
 
 - This is the manage authors page, which allows users to add, edit/update, and delete author information.
 
 <h3 id="books">Books</h3>
 
-![Books](https://github.com/JosephNeilG/library-ui/blob/ec3d9ad1d4a3e1db3e119152abb8d3919c5c12cb/img/Books.png)
+![Books](https://github.com/JosephNeilG/library-ui/blob/2bdbfa7427904e0546d6f88815c311f9f4458e48/img/Books.png)
 
 - This is the manage books page, which allows users to add, edit/update, and delete book information.
 
