@@ -4,8 +4,12 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#library-management-ui">About The Project</a></li>
-    <li><a href="#tech-used">Technologies Used</a></li>
+    <li>
+    <a href="#about">About The Project</a>
+    </li>
+    <li>
+    <a href="#tech-used">Technologies Used</a>
+    </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -24,17 +28,18 @@
         <li><a href="#manage-account">Manage Account</a></li>
       </ul>
     </li>
+    <li><a href="#collaborators">Collaborators</a></li>
     <li><a href="#project-information">Project Information</a></li>
   </ol>
 </details>
 
-## About the Project
+<h3 id="about">About the Project</h3>
 
 A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScript that interacts with a backend [Library Management System API](https://github.com/JosephNeilG/library_4a) made with the Slim PHP framework. This interface allows users to view, add, and manage books and authors seamlessly.
 
 <p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
-## Technologies Used
+<h3 id="tech-used">Technologies Used</h3>
 
 ### Frontend:
 - CSS (for styling and layout)
@@ -114,6 +119,8 @@ Follow these steps to set up and run the Library UI and its API on your local ma
 3. **Launch the UI:**
 Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 
+<p align="right">(<a href="#library-management-ui">back to top</a>)</p>
+
 ## System Walkthrough
 
 <h3 id="homepage">Homepage</h3>
@@ -157,6 +164,23 @@ Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 ![Manage Account](https://github.com/JosephNeilG/library-ui/blob/73349065f1972887f2d225cf678ee6394526ef10/ui/Manage-accounts.png)
 
 - This is the Manage Accounts Page, which manages user accounts, allowing users to update their credentials or delete their accounts. It includes a user list for easy reference and management.
+
+<p align="right">(<a href="#library-management-ui">back to top</a>)</p>
+
+<h3 id="collaborators">Collaborators</h3>
+
+[Kyle D. De Jesus](https://github.com/KyleDDJ)
+[Erbin James Derek A. Orodio](https://github.com/ErbinJames)
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
 ## Project Information
 
