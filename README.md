@@ -33,7 +33,7 @@
   </ol>
 </details>
 
-<h3 id="about">About the Project</h3>
+<h2 id="about">About the Project</h2>
 
 A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScript that interacts with a backend [Library Management System API](https://github.com/JosephNeilG/library_4a) made with the Slim PHP framework. This interface allows users to view, add, and manage books and authors seamlessly.
 
