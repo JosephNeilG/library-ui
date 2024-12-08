@@ -207,7 +207,7 @@ These utility functions are responsible for managing cookies, specifically for r
 This function retrieves the value of a specified cookie by its name. It parses the document.cookie string to locate the desired cookie and returns its value. If the cookie does not exist, it returns undefined.
 
 **Parameters:**\
-**name (string):** The name of the cookie to retrieve.
+-**name (string):** The name of the cookie to retrieve.
 
 <h3 id="setcookie">setCookie(name, value)</h3>
 
@@ -219,8 +219,8 @@ This function retrieves the value of a specified cookie by its name. It parses t
 This function sets a cookie with the provided name and value. The cookie is configured to expire in 1 hour (max-age=3600) and is available across the entire application path.
 
 **Parameters:**\
-**name (string):** The name of the cookie to set.\
-**value (string):** The value to store in the cookie.
+-**name (string):** The name of the cookie to set.\
+-**value (string):** The value to store in the cookie.
 
 <p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
