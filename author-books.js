@@ -83,7 +83,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         <td>${entry.book_name}</td>
                         <td>
                             <button class="btn btn-outline-primary">Edit</button>
-                            <button class="btn btn-outline-danger">Delete</button>
+                            <button class="btn btn-outline-danger" onclick="deleteCollection(${entry.collectionid}, '${entry.author_name.replace("'", "\\'")}', '${entry.book_name.replace("'", "\\'")}')">Delete</button>
+
                         </td>
                     `;
                     authorBookTableBody.appendChild(row);
@@ -141,7 +142,7 @@ if (addAssociationForm) {
                     <td>${data.data.book_name}</td>
                     <td>
                         <button class="btn btn-outline-primary">Edit</button>
-                        <button class="btn btn-outline-danger">Delete</button>
+                        <button class="btn btn-outline-danger" onclick="deleteCollection(${data.data.collectionid}, '${data.data.author_name}, ${data.data.book_name}')">Delete</button>
                     </td>
                 `;
                 authorBookTableBody.appendChild(newRow);
@@ -159,5 +160,48 @@ if (addAssociationForm) {
         }
     });
 }
+
+    // Delete book function with confirmation
+    window.deleteCollection = async function(collectionId) {
+        const confirmation = confirm(`Are you sure you want to delete this collection?`);
+        
+        authToken = getCookie('authToken');
+
+        if (confirmation) {
+            try {
+                const response = await fetch('http://127.0.0.1:8080/library/public/books_author/delete', {
+                    method: 'DELETE',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${authToken}`,
+                    },
+                    body: JSON.stringify({
+                        collectionid: collectionId,
+                    }),
+                });
+
+                const data = await response.json();
+
+                if (data.status === 'success') {
+                    setCookie('authToken', data.token);
+
+                    // Remove the book row from the table
+                    const row = document.querySelector(`#authorBookTableBody tr[data-collectionid="${collectionId}"]`);
+                    if (row) {
+                        row.remove();
+                    }
+                    alert('Collection deleted successfully!');
+                    
+                } else {
+                    alert('Failed to delete collection: ' + data.data.title);
+                }
+
+            } catch (error) {
+                console.error('Error deleting collection:', error);
+                alert('Error deleting author. Please try again later.');
+            }
+        }
+    };
+
     fetchAllData(authToken);
 });
