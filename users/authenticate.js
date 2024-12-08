@@ -49,7 +49,7 @@ document.getElementById('signInForm').addEventListener('submit', function (event
             
             window.location.href = 'http://127.0.0.1:8080/library-ui/index.html'; 
         } else {
-            alert('Error: ' + data.data.title);
+            alert(data.data.title);
         }
     })
     .catch(error => {
