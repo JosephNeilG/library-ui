@@ -219,7 +219,8 @@ if (updateBookForm) {
                 
                 alert('Book updated successfully!');
             } else {
-                alert('Failed to update Book: ' + (data.data?.title || data.message));
+                const errorMessage = data.data?.title || 'An unknown error occurred';
+                    alert(`Failed to add author: ${errorMessage}`);
             }
         } catch (error) {
             console.error('Error updating Book:', error);
