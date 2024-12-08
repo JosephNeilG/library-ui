@@ -81,7 +81,7 @@
         </div>
     </div>
 
-    <!-- Association Form -->
+    <!-- Add Association Form -->
 <div id="addAssociationFormContainer" class="container mt-4" style="display: none;">
   <form id="add-author-book-form">
     <div class="row justify-content-center mt-3">
@@ -104,6 +104,30 @@
     </div>
   </form>
 </div>
+
+    <!-- Update Association Form -->
+    <div id="updateAssociationFormContainer" class="container mt-4" style="display: none;">
+        <form id="update-book-author-form">
+          <div class="row justify-content-center mt-3">
+            <div class="col-auto">
+              <label for="update-author-id" class="form-label">Edit Author ID</label>
+              <input type="text" id="update-author-id" class="form-control" placeholder="ID" style="width: 200px;" required>
+            </div>
+            <div class="col-auto">
+              <label for="update-book-id" class="form-label">Edit Book ID</label>
+              <input type="text" id="update-book-id" class="form-control" placeholder="ID" style="width: 200px;" required>
+            </div>
+          </div>
+      
+          <!-- Submit and Cancel Buttons -->
+          <div class="row justify-content-center mt-3">
+            <div class="col-auto">
+              <button type="submit" class="btn btn-success me-2">Save Changes</button>
+              <button type="button" class="btn btn-secondary" onclick="document.getElementById('updateAssociationFormContainer').style.display = 'none';">Cancel</button>
+            </div>
+          </div>
+        </form>
+      </div>
 
     <!-- Authors and Books side by side -->
     <div class="container mt-4">
@@ -213,4 +237,3 @@
           crossorigin="anonymous"></script>
 </body>
 </html>
-
