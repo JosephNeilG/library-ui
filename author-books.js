@@ -102,49 +102,62 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('addAssociationFormContainer').style.display = 'block';
     });
 
-    // Handle Add Author form submission
-    const addAssociationForm = document.getElementById('add-author-book-form');
-    if (addAssociationForm) {
-        addAssociationForm.addEventListener('submit', async function (e) {
-            e.preventDefault();
-            const authorId = document.getElementById('author-id').value;
-            const bookId = document.getElementById('book-id').value;
+// Handle book author form submission
+const addAssociationForm = document.getElementById('add-author-book-form');
+if (addAssociationForm) {
+    addAssociationForm.addEventListener('submit', async function (e) {
+        e.preventDefault();
+        const authorId = document.getElementById('author-id').value;
+        const bookId = document.getElementById('book-id').value;
 
-            // Refresh the authToken from the cookie
-            let authToken = getCookie('authToken');
+        // Refresh the authToken from the cookie
+        let authToken = getCookie('authToken');
 
-            try {
-                const response = await fetch('http://127.0.0.1:8080/library/public/books_author/add', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': `Bearer ${authToken}`,
-                    },
-                    body: JSON.stringify({
-                        authorid: authorId,
-                        bookid: bookId
-                    }),
-                });
+        try {
+            const response = await fetch('http://127.0.0.1:8080/library/public/books_author/add', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${authToken}`,
+                },
+                body: JSON.stringify({
+                    authorid: authorId,
+                    bookid: bookId
+                }),
+            });
 
-                const data = await response.json();
+            const data = await response.json();
 
-                if (data.status === 'success') {
-                    // Save the new token
-                    setCookie('authToken', data.token);
-                    authToken = data.token;
+            if (data.status === 'success') {
+                // Save the new token
+                setCookie('authToken', data.token);
+                authToken = data.token;
 
-                    await fetchAllData(authToken);
-                    addAssociationForm.reset();
-                    alert('Author-book added successfully!');
-                } else {
-                    alert('Failed to add association: ' + (data.data.title || data.message));
-                }
+                // Manually append the new association to the table
+                const newRow = document.createElement('tr');
+                newRow.setAttribute('data-collectionid', data.data.collectionid);
+                newRow.innerHTML = `
+                    <td>${data.data.author_name}</td>
+                    <td>${data.data.book_name}</td>
+                    <td>
+                        <button class="btn btn-outline-primary">Edit</button>
+                        <button class="btn btn-outline-danger">Delete</button>
+                    </td>
+                `;
+                authorBookTableBody.appendChild(newRow);
 
-            } catch (error) {
-                console.error('Error adding association:', error);
-                alert('Error adding association. Please try again later.');
+                // Clear the form
+                addAssociationForm.reset();
+                alert('Author-book added successfully!');
+            } else {
+                alert('Failed to add association: ' + (data.data.title || data.message));
             }
-        });
-    }
+
+        } catch (error) {
+            console.error('Error adding association:', error);
+            alert('Error adding association. Please try again later.');
+        }
+    });
+}
     fetchAllData(authToken);
 });
