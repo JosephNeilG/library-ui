@@ -28,6 +28,7 @@
         <li><a href="#manage-account">Manage Account</a></li>
       </ul>
     </li>
+    <li><a href="#cookiemanagement">Cookie Management</a></li>
     <li><a href="#collaborators">Collaborators</a></li>
     <li><a href="#project-information">Project Information</a></li>
   </ol>
