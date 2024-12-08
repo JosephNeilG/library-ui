@@ -207,6 +207,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Project Information
 
-This project is developed as part of a midterm school requirement for ITPC 115. It is aimed at demonstrating knowledge and skills in building secure web applications by integrating API endpoints with front-end UI, while also managing token-based authentication and cookie handling.
+This project is developed as part of a final term school requirement for ITPC 115. It is aimed at demonstrating knowledge and skills in building secure web applications by integrating API endpoints with front-end UI, while also managing token-based authentication and cookie handling.
 
 <p align="right">(<a href="#library-management-ui">back to top</a>)</p>
