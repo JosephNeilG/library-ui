@@ -57,10 +57,30 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 
 ### Features
 
-- **View Authors and Books:** Dynamically fetches and displays lists of authors and books from the API.
-- **Add Associations:** Allows users to associate books with authors.
-- **Manage Account:** Enables users to update their username and password, as well as delete their account.
-- **Authentication:** Utilizes token-based authentication for secure API interactions.
+**Users** 
+- register
+- authenticate
+- display
+- update
+- delete
+
+**Author**
+- add
+- display
+- update
+- delete
+
+**Books**
+- add
+- display
+- update
+- delete
+
+**Author-Books**
+- add (not working properly)
+- display 
+- update (not implemented)
+- delete (not implemented)
 
 <p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
