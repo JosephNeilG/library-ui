@@ -193,18 +193,27 @@ Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 <h2 id="cookiemanagement">Cookie Management</h2>
 These utility functions are responsible for managing cookies, specifically for retrieving and setting cookies in the browser. They are essential for handling user session tokens and maintaining state across web application requests.
 
-<h3 id="getcookie(name)">getCookie(name)</h3>
+<h3 id="getcookie">getCookie(name)</h3>
 
 ```php
+    function getCookie(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+
+        if (parts.length === 2) return parts.pop().split(';').shift();
+    }
 ```
 This function retrieves the value of a specified cookie by its name. It parses the document.cookie string to locate the desired cookie and returns its value. If the cookie does not exist, it returns undefined.
 
 **Parameters:**
 **name (string):** The name of the cookie to retrieve.
 
-<h3 id="setcookie(name,value)">setCookie(name, value)</h3>
+<h3 id="setcookie">setCookie(name, value)</h3>
 
 ```php
+    function setCookie(name, value) {
+        document.cookie = `${name}=${value}; path=/; max-age=3600`;
+    }
 ```
 This function sets a cookie with the provided name and value. The cookie is configured to expire in 1 hour (max-age=3600) and is available across the entire application path.
 
