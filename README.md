@@ -77,10 +77,10 @@ A user-friendly web interface built using HTML, CSS, Bootstrap 5.3, and JavaScri
 - delete
 
 **Author-Books**
-- add (not working properly)
+- add 
 - display 
 - update (not implemented)
-- delete (not implemented)
+- delete 
 
 <p align="right">(<a href="#library-management-ui">back to top</a>)</p>
 
