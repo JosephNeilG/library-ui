@@ -221,7 +221,8 @@ if (updateAuthorForm) {
                 
                 alert('Author updated successfully!');
             } else {
-                alert('Failed to update author: ' + (data.data?.title || data.message));
+                const errorMessage = data.data?.title || 'An unknown error occurred';
+                    alert(`Failed to add author: ${errorMessage}`);
             }
         } catch (error) {
             console.error('Error updating author:', error);
