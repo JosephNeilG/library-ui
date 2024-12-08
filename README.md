@@ -149,7 +149,7 @@ Open the `http://127.0.0.1:8080/library-ui/index.html` file in your browser.
 
 <h3 id="homepage">Homepage</h3>
 
-![Homepage](https://github.com/JosephNeilG/library-ui/blob/53f32a1015a77d1f66399daa3cb9ac5bbd096ee9/img/Home%20page.png)
+![Homepage](https://github.com/JosephNeilG/library-ui/blob/6a828bc4fdf977cb924ae32771135d0852af049f/img/new%20homepage.png)
 
 - This is the home page. It has a clear navigation bar with choices for Books, Authors, and Author-Books, as well as a login button for users to access.
 
