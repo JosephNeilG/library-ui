@@ -136,7 +136,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     addAuthorForm.reset(); 
                     alert('Author added successfully!');
                 } else {
-                    alert('Failed to add author: ' + data.message);
+                    const errorMessage = data.data?.title || 'An unknown error occurred';
+                    alert(`Failed to add author: ${errorMessage}`);
                 }
                 
             } catch (error) {
