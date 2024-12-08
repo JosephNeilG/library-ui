@@ -135,7 +135,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     addBookForm.reset();
                     alert('Book added successfully!');
                 } else {
-                    alert('Failed to add book: ' + data.message);
+                    const errorMessage = data.data?.title || 'An unknown error occurred';
+                    alert(`Failed to add author: ${errorMessage}`);
                 }
                 
             } catch (error) {
